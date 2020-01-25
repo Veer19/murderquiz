@@ -2,9 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Login from './views/Login.vue'
-import Level1 from './views/Level1.vue'
-import Level2 from './views/Level2.vue'
-import Level3 from './views/Level3.vue'
+import Questions from './views/Questions.vue'
 import Finish from './views/Finish.vue'
 import Admin from './views/Admin.vue'
 
@@ -23,19 +21,9 @@ export default new Router({
       component : Home
     },
     {
-      path: '/level1',
-      name: 'level1',
-      component : Level1
-    },
-    {
-      path: '/level2',
-      name: 'level2',
-      component : Level2
-    },
-    {
-      path: '/level3',
-      name: 'level3',
-      component : Level3
+      path: '/questions',
+      name: 'questions',
+      component : Questions
     },
     {
       path: '/finish',

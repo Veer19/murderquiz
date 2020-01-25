@@ -29,30 +29,12 @@ export default {
           if(!doc.exists){
             return firebaseApp.db.doc("users/"+ user.uid).set({
               name : user.displayName,
-              questions : {
-                '1':false,
-                '2':false,
-                '3':false,
-                '4':false,
-                '5':false,
-              },
-              points : {
-                '1l':false,
-                '2l':false,
-                '3l':false,
-                '4l':false,
-                '5l':false,
-                '1c':false,
-                '2c':false,
-                '3c':false,
-                '4c':false,
-                '5c':false,
-              },
+              currentQuestion: 0,
+              points : 200,
               uid:user.uid
             })
           }
         })
-        
       })
       .then(()=>{
           this.$router.push('home')
