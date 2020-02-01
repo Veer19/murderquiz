@@ -31,7 +31,10 @@ export default {
               name : user.displayName,
               currentQuestion: 0,
               points : 200,
-              uid:user.uid
+              uid:user.uid,
+              sidePaths: 0,
+              atSidePath : false,
+              loadSecondPart:false
             })
           }
         })

@@ -44,7 +44,7 @@ export default {
   },
   methods:{
     start(){
-      this.$router.push('level1')
+      this.$router.push('questions')
     }
   },
   beforeMount(){

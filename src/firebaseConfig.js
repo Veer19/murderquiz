@@ -1,12 +1,12 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAQKk_SLE7Eg2Yc0hgDohryZwhX-6uMniw",
-    authDomain: "quiz-20.firebaseapp.com",
-    databaseURL: "https://quiz-20.firebaseio.com",
-    projectId: "quiz-20",
-    storageBucket: "quiz-20.appspot.com",
-    messagingSenderId: "826693194930",
-    appId: "1:826693194930:web:f1e330e7fd17b3e4f8a5ab",
-    measurementId: "G-0J5T61Q8N1"
+    apiKey: "AIzaSyDO6kNhIHbCFx3OeR4KadRrfAm8_CpSItM",
+    authDomain: "qrtine.firebaseapp.com",
+    databaseURL: "https://qrtine.firebaseio.com",
+    projectId: "qrtine",
+    storageBucket: "qrtine.appspot.com",
+    messagingSenderId: "858832924485",
+    appId: "1:858832924485:web:11c1888623cba238ab182c",
+    measurementId: "G-R37ZSTBTGT"
 };
 import firebase from 'firebase'
 import 'firebase/firestore'

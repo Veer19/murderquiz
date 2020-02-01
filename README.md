@@ -1,4 +1,4 @@
-# revcode
+# Qurtine
 
 ## Project setup
 ```
